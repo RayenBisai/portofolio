@@ -1,1 +1,1 @@
-console.log("Welkom op mijn website!");
+console.log("je moeder");
