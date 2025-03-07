@@ -9,6 +9,7 @@ header {
     background-color: #082509;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 header nav ul {
