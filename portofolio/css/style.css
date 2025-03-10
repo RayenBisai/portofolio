@@ -34,6 +34,7 @@ main {
     padding: 20px;
     border: 2px solid rgb(63, 43, 13);
     height: 700px;
+    text-align: center;
 }
 
 main.full-width {
@@ -68,6 +69,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.img {
+height: 250px;
+}
+
+
 
 
 @media screen  and (max-width: 750px){
