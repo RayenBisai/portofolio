@@ -1,4 +1,4 @@
-/* Algemene opmaak voor de website */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,19 +29,20 @@ header nav ul li a {
 
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* Twee kolommen: hoofdniveau (3) en zijbalk (1) */
+    grid-template-columns: 3fr 1fr; 
     gap: 20px;
     padding: 20px;
     border: 2px solid rgb(63, 43, 13);
-    height: 700px;
+    min-height: 50vh;
+    height: auto; 
     text-align: center;
 }
 
 main.full-width {
-    grid-template-columns: 1fr; /* Volledige breedte voor index pagina */
+    grid-template-columns: 1fr; 
 }
 
-.head {
+.header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: #082509;
@@ -52,7 +53,7 @@ main.full-width {
 
 .content {
     background-color: beige;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
 }
 
@@ -64,22 +65,23 @@ main.full-width {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #082509;
     color: white;
     text-align: center;
-    padding: 10px;
 }
 
 .img {
-height: 250px;
+    height: 150px;
 }
 
-
-
-
-@media screen  and (max-width: 750px){
+@media screen and (max-width: 750px) {
     main {
         grid-template-columns: 1fr;
-       height: auto;
+        min-height: 50vh; 
+        height: auto;
     }
 }
