@@ -1,4 +1,4 @@
-.content {
+i m.content {
     background-color: beige;
     padding: 10px;
     border-radius: 8px;
@@ -18,4 +18,8 @@
 
 .box1{
 height: 800px;
+}
+
+footer {
+  padding-bottom: 60px; /* Add padding to avoid content hidden behind fixed footer */
 }
