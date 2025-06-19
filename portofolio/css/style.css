@@ -17,9 +17,20 @@ i m.content {
 }
 
 .box1{
-height: 800px;
+    height: 800px;
 }
 
 footer {
-  padding-bottom: 60px; /* Add padding to avoid content hidden behind fixed footer */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: #212529; /* match bg-dark */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main.container {
+  padding-bottom: 250px; /* Add bottom padding to main content to avoid overlap with fixed footer */
 }
